@@ -247,10 +247,12 @@ The following screenshots capture key stages of the Vulnerability Assessment and
 
 <img width="940" height="237" alt="image" src="https://github.com/user-attachments/assets/0e5644b5-cdfc-4a04-97a1-1e64bf38f582" />
 
+
 <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/27c5edb8-fca0-47a2-b31c-f5f2c4194b2b" />
 
-<img width="758" height="156" alt="image" src="https://github.com/user-attachments/assets/04ffcb85-bd9f-
-4389-9f57-b19d46a6027e" />
+
+<img width="758" height="156" alt="image" src="https://github.com/user-attachments/assets/629de835-9823-443f-b6b1-26bfa56931da" />
+
 
 
 ---
