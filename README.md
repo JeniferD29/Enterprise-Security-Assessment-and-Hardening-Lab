@@ -237,7 +237,7 @@ The following screenshots capture key stages of the Vulnerability Assessment and
 ### 6. File Access Verification
 
 #### Uploaded File Access
-![File Access](Screenshots/File%20Access-11.png)
+![File Access](Screenshots/FTP%20Access-11.png)
 
 ---
 
