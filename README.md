@@ -182,91 +182,85 @@ The following vulnerabilities were intentionally introduced into the simulated e
 
 ## Assessment Screenshots
 
-The following screenshots capture key stages of the Vulnerability Assessment and Penetration Testing (VAPT) engagement.
+The following screenshots capture key stages of the Vulnerability Assessment and Penetration Testing (VAPT) engagement conducted against the simulated enterprise environment.
 
-### Nmap Scan
+### 1. Network Reconnaissance
 
-<img width="940" height="612" alt="image" src="https://github.com/user-attachments/assets/3a8754c5-744e-459e-9157-5f1b73265c6e" />
-
-
----
-
-### Gobuster Enumeration
-
-<img width="928" height="680" alt="image" src="https://github.com/user-attachments/assets/14f27267-af38-4afd-a4fd-1c040cd67db0" />
-
+#### Nmap Port Scan
+![Nmap Scan](Screenshots/nmap-1.png)
 
 ---
 
-### Directory Listing
+### 2. Web Enumeration
 
-<img width="709" height="453" alt="image" src="https://github.com/user-attachments/assets/8f133c73-5358-4979-87af-7ef35de18f11" />
+#### Gobuster Directory Enumeration
+![Gobuster Enumeration](Screenshots/gobuster-2.png)
 
-
----
-
-### Exposed Backup Configuration
-
-<img width="940" height="501" alt="image" src="https://github.com/user-attachments/assets/446a4f0d-82b8-417a-8ad0-08f90c78bb01" />
-
-
-<img width="759" height="484" alt="image" src="https://github.com/user-attachments/assets/9a2f9e06-bca5-447e-9152-38555ae31945" />
+#### Discovered Backup Directory
+![Backup Directory](Screenshots/backups-3.png)
 
 ---
 
-### SQL Injection
+### 3. Backup File Exposure
 
-<img width="934" height="640" alt="image" src="https://github.com/user-attachments/assets/5aec93ef-e850-43e5-978d-f875e93279b4" />
+#### Exposed Backup File
+![Backup File Exposure](Screenshots/Backup%20File%20Exposure-4.png)
 
-
-<img width="940" height="779" alt="image" src="https://github.com/user-attachments/assets/f652c50a-b8fd-4854-a09e-65c0583a457e" />
-
-
----
-
-### File Upload Vulnerability
-
-<img width="940" height="550" alt="image" src="https://github.com/user-attachments/assets/ec6c3347-54e3-4715-98cb-35c165f73509" />
-
-
-<img width="940" height="274" alt="image" src="https://github.com/user-attachments/assets/936fbfe5-ca69-42be-a914-4d1740bca40b" />
-
-
-<img width="859" height="703" alt="image" src="https://github.com/user-attachments/assets/e5ea8e3a-a818-4170-9f59-6c8c07360f64" />
+#### Sensitive Configuration Disclosure
+![Backup Configuration](Screenshots/Backup%20File%20Exposure-5.png)
 
 ---
 
-### FTP Enumeration
+### 4. SQL Injection
 
-<img width="806" height="371" alt="image" src="https://github.com/user-attachments/assets/6de3ee5d-5f13-4af4-a9ec-0b1d580cb23c" />
+#### SQL Injection Validation
+![SQL Injection](Screenshots/SQL%20Injection-6.png)
 
-
----
-
-### SMB Enumeration
-
-<img width="940" height="237" alt="image" src="https://github.com/user-attachments/assets/0e5644b5-cdfc-4a04-97a1-1e64bf38f582" />
-
-
-<img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/27c5edb8-fca0-47a2-b31c-f5f2c4194b2b" />
-
-
-<img width="758" height="156" alt="image" src="https://github.com/user-attachments/assets/629de835-9823-443f-b6b1-26bfa56931da" />
-
-
+#### Database Extraction
+![SQL Injection Results](Screenshots/SQL%20Injection-7.png)
 
 ---
 
-### Privilege Escalation
+### 5. Unrestricted File Upload
 
-<img width="940" height="571" alt="image" src="https://github.com/user-attachments/assets/dcc88c66-ace0-4e5b-adb0-8ab6db8c6653" />
+#### Upload Function Identified
+![File Upload](Screenshots/Unrestricted%20File%20Upload-8.png)
+
+#### Malicious File Uploaded
+![Upload Success](Screenshots/Unrestricted%20File%20Upload-9.png)
+
+#### Uploaded File Executed
+![Command Execution](Screenshots/Unrestricted%20File%20Upload-10.png)
 
 ---
 
-### Root Access
+### 6. File Access Verification
 
-<img width="940" height="267" alt="image" src="https://github.com/user-attachments/assets/a590fc1b-6a1d-4a12-9b2e-d5185443813f" />
+#### Uploaded File Access
+![File Access](Screenshots/File%20Access-11.png)
 
+---
+
+### 7. SMB Enumeration
+
+#### SMB Share Discovery
+![SMB Share](Screenshots/SMB%20Share%20-12.png)
+
+#### SMB Share Enumeration
+![SMB Enumeration](Screenshots/SMB%20Share%20-13.png)
+
+#### Sensitive Files Accessed
+![SMB Files](Screenshots/SMB%20Share%20-14.png)
+
+---
+
+### 8. Privilege Escalation
+
+#### Privilege Escalation Enumeration
+![Privilege Escalation](Screenshots/Privilege%20Escalation-15.png)
+
+#### Root Access Achieved
+![Root Access](Screenshots/Privilege%20Escalation-16.png)
 
 ## Skills Demonstrated
 
