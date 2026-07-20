@@ -297,4 +297,4 @@ Aspiring Cybersecurity Professional | VAPT | Application Security | Network Secu
 
 GitHub: https://github.com/JeniferD29
 Linkedin: https://www.linkedin.com/in/jenifercatherined/
-TryHAckMe: https://tryhackme.com/p/djenifercatherine
+TryHackMe: https://tryhackme.com/p/djenifercatherine
